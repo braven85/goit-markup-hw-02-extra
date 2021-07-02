@@ -1,0 +1,238 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(33, 33, 33, 100%);
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+}
+
+.nav-header-main {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-header-agencja {
+    position: absolute;
+    width: 53px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
+
+.nav-header-portfolio {
+    position: absolute;
+    width: 58px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+}
+
+.nav-header-kontakt {
+    position: absolute;
+    width: 51px;
+    height: 16px;
+    left: 656px;
+    top: 32px;
+}
+
+.nav-header-mail {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 100%);
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+}
+
+.nav-header-tel {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 100%);
+    position: absolute;
+    width: 120px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+}
+
+.web-studio-link-header {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    font-style: normal;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    top: 24px;
+    left: 215px;
+}
+
+.web-studio-link-footer {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.blue-text {
+    color: rgba(33, 150, 243, 100%);
+}
+
+.black-text {
+    color: rgba(0, 0, 0, 100%);
+}
+
+.white-text {
+    color: rgba(255, 255, 255, 100%)
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    text-decoration: none;
+    color: rgba(33, 150, 243, 100%);
+}
+
+.nav-header-mail:hover,
+.nav-header-mail:focus,
+.nav-header-tel:hover,
+.nav-header-tel:focus {
+    text-decoration: none;
+    color: rgba(33, 150, 243, 100%);
+}
+
+.effective-solutions {
+    background-color: rgba(47, 48, 58, 100%);
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 1px;
+    top: 80px;
+    right: 1px;
+    bottom: 1669px;
+}
+
+.effective-solutions-title {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 451px;
+    top: 200px;
+    bottom: 280px;
+    right: 453px;
+
+    color: rgba(255, 255, 255, 100%);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-first {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 699px;
+    top: 350px;
+    bottom: 200px;
+    right: 701px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgba(33, 150, 243, 100%);
+    color: rgba(255, 255, 255, 100%);
+}
+
+.our-attributes {
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    left: 215px;
+    top: 774px;
+}
+
+.our-attributes-list {
+    list-style-type: none;
+    width: 270px;
+    height: 101px;
+}
+
+.what-do-we-do {
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 969px;
+}
+
+.our-team {
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+}
+
+.our-team-list>li {
+    display: inline;
+}
+
+.footer-main {
+    background-color: rgba(47, 48, 58, 100%);
+
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+}
+
+
+.footer-address-list {
+    list-style-type: none;
+}
+
+.footer-address-city {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 100%)
+}
+
+.footer-address-mail-tel {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 60%)
+}
