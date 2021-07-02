@@ -110,13 +110,6 @@ body {
   color: rgba(33, 150, 243, 100%);
 }
 
-.web-studio-link-footer {
-  font-family: 'Raleway', sans-serif;
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 700;
-}
-
 .blue-text {
   color: rgba(33, 150, 243, 100%);
 }
@@ -266,7 +259,7 @@ body {
 .what-do-we-do-list,
 .our-team-list,
 .portfolio-list {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .footer-main {
@@ -280,20 +273,39 @@ body {
 }
 
 .footer-address-list {
+  position: absolute;
+  width: 246px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
+
   list-style-type: none;
+}
+
+.web-studio-link-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .footer-address-city,
 .footer-address-mail,
 .footer-address-tel {
-    color: rgba(255, 255, 255, 60%);
-    text-decoration: none;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 60%);
+  text-decoration: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .footer-address-city:hover,
@@ -302,42 +314,42 @@ body {
 .footer-address-mail:focus,
 .footer-address-tel:hover,
 .footer-address-tel:focus {
-    color: rgba(255, 255, 255, 100%);
+  color: rgba(255, 255, 255, 100%);
 }
 
 .filter-button {
-    color: rgba(0, 0, 0, 100%);
-    background-color: rgba(245, 244, 250, 100%);
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 100%);
+  background-color: rgba(245, 244, 250, 100%);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filter-button:hover,
 .filter-button:focus {
-    color: rgba(255, 255, 255, 100%);
-    background-color: rgba(33, 150, 243, 100%);
-    cursor: pointer;
+  color: rgba(255, 255, 255, 100%);
+  background-color: rgba(33, 150, 243, 100%);
+  cursor: pointer;
 }
 
 .portfolio-content-title,
 .portfolio-content-description {
-    font-family: inherit;
+  font-family: inherit;
 }
 
 .portfolio-content-title {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;    
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-content-description {
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
